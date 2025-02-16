@@ -39,9 +39,8 @@ export default function ShareButton(props) {
         method: "POST",
         headers: {
           "content-type": "application/x-www-form-urlencoded",
-          "X-RapidAPI-Key":
-            "0671695692mshe80d997e7d3fee5p128cacjsn21bc5df6dca6",
-          "X-RapidAPI-Host": "url-shortener-service.p.rapidapi.com",
+          "X-RapidAPI-Key": process.env.REACT_APP_RAPIDAPI_KEY,
+          "X-RapidAPI-Host": process.env.REACT_APP_RAPIDAPI_HOST,
         },
         body: encodedParams,
       };
