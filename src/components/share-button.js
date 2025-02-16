@@ -17,7 +17,7 @@ export default function ShareButton(props) {
   const share = async () => {
     setDisabled(true);
     const encodedParams = new URLSearchParams();
-    const url = `https://virtual-interview-simulator.vercel.app/list/${name.replaceAll(
+    const url = `https://nith-syllabus-portal.vercel.app/list/${name.replaceAll(
       " ",
       "*!"
     )}/${JSON.stringify(props.keys)
