@@ -5,10 +5,12 @@ The **NITH Syllabus Portal** is a web application that provides a clean and easy
 ## 📸 Screenshots
 
 - **PC View**:
+  
   ![Home Page](public/screenshots/pc_view_2.jpg)
 
 - **Mobile View**:
-  ![Mobile Page](public/screenshots/mobile_view_2.jpg)
+  
+     ![Mobile Page](public/screenshots/mobile_view_2.jpg)
 
 ## 🎯 Features
 
